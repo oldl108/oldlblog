@@ -1,11 +1,11 @@
 const BLOG = {
-  title: 'oldli's blog',
-  author: 'oldli',
+  title: '普通的老李',
+  author: 'oldl',
   email: 'zklimeng@163.com',
   link: 'https://oldl.net',
   newsletter: 'newsletter',
   description: 'A static blog',
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#F6F8FA', // use hex value, don't forget '#' e.g #fffefc
@@ -23,7 +23,7 @@ const BLOG = {
   socialLink: {
     twitter: 'https://twitter.com/zklimeng',
     github: '',
-    telegram: 'https://t.me/'
+    telegram: ''
   },
   seo: {
     keywords: ['old', 'Blog'],
@@ -32,12 +32,12 @@ const BLOG = {
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionSpacesId: process.env.NOTION_SPACES_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
-  notionDomain: 'izuolan.notion.site',
+  notionDomain: 'm369.notion.site',
   telegramToken: process.env.TELEGRAM_TOKEN, // The token of your Telegram bot
   telegramChatId: '597584577', // The chat id of your Telegram bot
-  telegramChannelUrl: 'https://', // The link of your Telegram channel
+  telegramChannelUrl: '', // The link of your Telegram channel
   telegramChannelName: 'old channel', // The name of your Telegram channel
-  craftConfigShareUrl: 'https://www.craft.do/s/', // The link to share your craft config
+  craftConfigShareUrl: '', // The link to share your craft config
   analytics: {
     provider: '', // Currently we support Google Analytics, Ackee and Umami, please fill with 'ga' or 'ackee' or 'umami', leave it empty to disable it.
     umamiConfig: {
