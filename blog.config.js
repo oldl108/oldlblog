@@ -1,9 +1,9 @@
 const BLOG = {
-  title: '普通的老李',
-  author: '老李',
+  title: 'oldli's blog',
+  author: 'oldli',
   email: 'zklimeng@163.com',
   link: 'https://oldl.net',
-  newsletter: '大众周刊',
+  newsletter: 'newsletter',
   description: 'A static blog',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -26,7 +26,7 @@ const BLOG = {
     telegram: 'https://t.me/'
   },
   seo: {
-    keywords: ['博客', '普通的老李', 'Blog'],
+    keywords: ['old', 'Blog'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
@@ -36,7 +36,7 @@ const BLOG = {
   telegramToken: process.env.TELEGRAM_TOKEN, // The token of your Telegram bot
   telegramChatId: '597584577', // The chat id of your Telegram bot
   telegramChannelUrl: 'https://', // The link of your Telegram channel
-  telegramChannelName: '普通的频道', // The name of your Telegram channel
+  telegramChannelName: 'old channel', // The name of your Telegram channel
   craftConfigShareUrl: 'https://www.craft.do/s/', // The link to share your craft config
   analytics: {
     provider: '', // Currently we support Google Analytics, Ackee and Umami, please fill with 'ga' or 'ackee' or 'umami', leave it empty to disable it.
