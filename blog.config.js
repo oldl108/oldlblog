@@ -3,7 +3,7 @@ const BLOG = {
   author: '老李',
   email: 'zklimeng@163.com',
   link: 'https://oldl.net',
-  newsletter: '普通的周刊',
+  newsletter: '大众周刊',
   description: 'A static blog',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -23,7 +23,7 @@ const BLOG = {
   socialLink: {
     twitter: 'https://twitter.com/zklimeng',
     github: '',
-    telegram: 'https://t.me/zuolan'
+    telegram: 'https://t.me/'
   },
   seo: {
     keywords: ['博客', '普通的老李', 'Blog'],
